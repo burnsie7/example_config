@@ -1,0 +1,7 @@
+init_config:
+instances:
+  - host: localhost
+    port: 8099
+    java_bin_path: "D:/Path/to/jre/bin/java.exe"
+    tags:
+      service: my_service

@@ -1,0 +1,11 @@
+init_config:
+instances:
+logs:
+  - type: file
+    path: D:\Path\to\logs\*
+    service: my_service
+    source: Integration
+  - type: file
+    path: C:\ProgramData\Datadog\logs\*
+    service: DataDog
+    source: Agent

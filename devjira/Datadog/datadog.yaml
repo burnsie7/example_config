@@ -1,0 +1,18 @@
+api_key: ****your-api-key*****
+apm_config:
+  enabled: true
+  env: dev
+  # Generate analyzed spans config here: https://app.datadoghq.com/apm/docs/trace-search
+  analyzed_spans:
+    my_service|servlet.request: 1
+    my_service|http.request: 1
+conf_path: .
+confd_path: C:\ProgramData\Datadog\conf.d
+additional_checksd: C:\ProgramData\Datadog\checks.d
+enable_gohai: true
+logs_enabled: true
+process_config:
+  enabled: true
+tags:
+  - env:dev
+  - service:jira # Add service tag if you want to tag ALL metrics with the name of the APM service

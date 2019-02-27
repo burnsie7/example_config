@@ -1,0 +1,23 @@
+init_config:
+instances:
+logs:
+  - type: file
+    path: D:\Atlassian\Program\JIRA\logs\*
+    service: jira
+    source: Tomcat
+  - type: file
+    path: D:\Atlassian\Application Data\JIRA\log\*.log
+    service: jira
+    source: Jira
+  - type: file
+    path: D:\Atlassian\Application Data\JIRA\log\*.current
+    service: jira
+    source: Jira
+  - type: file
+    path: D:\Atlassian\Application Data\JIRA\log\access_log.*
+    service: jira
+    source: Jira
+  - type: file
+    path: C:\ProgramData\Datadog\logs\*
+    service: DataDog
+    source: Agent

@@ -15,4 +15,4 @@ process_config:
   enabled: true
 tags:
   - env:dev
-  - service:jira # Add service tag if you want to tag ALL metrics with the name of the APM service
+  - service:jira_one # Add service tag if you want to tag ALL metrics with the name of the APM service

@@ -4,4 +4,4 @@ instances:
     port: 8099
     java_bin_path: "D:/Atlassian/Program/JIRA/jre/bin/java.exe"
     tags:
-      service: jira
+      service: jira_one

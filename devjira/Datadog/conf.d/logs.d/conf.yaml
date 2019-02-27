@@ -3,19 +3,19 @@ instances:
 logs:
   - type: file
     path: D:\Atlassian\Program\JIRA\logs\*
-    service: jira
+    service: jira_one
     source: Tomcat
   - type: file
     path: D:\Atlassian\Application Data\JIRA\log\*.log
-    service: jira
+    service: jira_one
     source: Jira
   - type: file
     path: D:\Atlassian\Application Data\JIRA\log\*.current
-    service: jira
+    service: jira_one
     source: Jira
   - type: file
     path: D:\Atlassian\Application Data\JIRA\log\access_log.*
-    service: jira
+    service: jira_one
     source: Jira
   - type: file
     path: C:\ProgramData\Datadog\logs\*
